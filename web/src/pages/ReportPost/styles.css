@@ -1,0 +1,177 @@
+#page-reportPost{
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-reportPost .page-header .header-content{
+    margin-bottom: 6.4rem;
+}
+
+#page-reportPost main{
+    background: var(--color-box-base);
+    width: 100%;
+    max-width: 74rem;
+    border-radius: 0.8rem;
+    margin: 0rem auto 3.2rem;
+    padding-top: 6.4rem;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    0px 1px 15px 0px rgba(50, 50, 50, 0.2);
+    box-shadow:         0px 1px 15px 0px rgba(50, 50, 50, 0.2);
+}
+
+#page-reportPost main .reportpost{
+    border: 0;
+    padding: 0 2.4rem;
+}
+
+#page-reportPost main .reportpost + .reportpost{
+    margin-top: 6.4rem;
+}
+
+#page-reportPost main .reportpost legend{
+    font: 700 2.4rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--color-line-in-white);
+}
+
+#page-reportPost main .reportpost .input-block + .textarea-block{
+    margin-top: 2.4rem;
+}
+
+#page-reportPost main label{
+    color: var(--color-text-complement);
+}
+
+#page-reportPost main footer{
+    padding: 4rem 2.4rem;
+    background: var(--color-box-footer);
+    border-top: 1px solid var(--color-line-in-white);
+    margin-top: 6.4rem;
+}
+
+#page-reportPost main footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--color-text-complement);
+}
+
+#page-reportPost main footer p img{
+    margin-right: 2rem;
+}
+
+#page-reportPost main footer button{
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 3.2rem;
+}
+
+#page-reportPost main footer button:hover{
+    background: var(--color-secundary-dark);
+}
+
+label#image {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    cursor: pointer;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  label#image input {
+    display: none;
+  }
+
+  label#image.has-image {
+    border: 0;
+  }
+
+  label#image.has-image img {
+    display: none;
+  }
+
+  form{
+  animation-name: fade;
+  animation-duration: 500ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#page-reportPost main .reportpost legend{
+    background: 0;
+}
+
+@media(min-width: 700px){
+    #page-reportPost{
+        max-width: 100vw;
+    }
+
+    #page-reportPost .JJM{
+        width: 20%;
+    }
+    
+    #page-reportPost main{
+        max-width: 100%;
+    }
+    
+    #page-reportPost .header-content strong{
+        width: 60rem;
+    }
+
+
+    #page-reportPost .page-header .header-content{
+        margin-bottom: 0;
+    }
+
+    #page-reportPost main .reportpost{
+        padding: 0 10rem;
+        width: 1000px;
+    }
+
+    #page-reportPost main footer{
+        padding: 4.8rem 6.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #page-reportPost main footer p{
+        justify-content: space-between;
+    }
+
+    #page-reportPost main footer button{
+        width: 20rem;
+        margin-top: 0;
+    }
+} 

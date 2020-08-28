@@ -1,0 +1,278 @@
+.page-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dashboard{
+    background: var(--color-primary-darker);
+}
+
+#sportBoard{
+    background: linear-gradient(#61c035,#1d0c0c);
+}
+
+#reportsBoard{
+    background: linear-gradient(#bdc3c7,#1b2530);
+}
+
+#newsBoard{
+    background: linear-gradient(#8549a3,#300b0d);
+}
+
+#popBoard{
+    background: linear-gradient(#43cea2,#05121f); 
+}
+
+#optionBoard{
+    background: linear-gradient(#141e30,#61045f ); 
+}
+
+.page-header .JJM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-header .JJM img{
+    width: 15%;  
+}
+
+.page-header .header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 0.6rem;
+}
+
+.page-header .header-content strong{
+    color: white;
+    font: 700 2.4rem Archivo;
+    margin-left: 2rem;
+}
+
+@media(min-width:800px){
+    .page-header{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .page-header .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .page-header .JJM img{
+        width: 60%;
+        margin-left: 2rem;
+    }
+
+    .page-header .header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .page-header .header-content strong{
+        color: white;
+        font: 700 2.8rem Archivo;
+        margin-left:0;
+        width: 30rem;
+        margin-left: -5rem;
+        position: relative;
+}
+
+}
+
+@media(min-width:1366px){
+    .page-header{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .page-header .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 26rem;
+    }
+
+    .page-header .JJM img{
+        width: 10%;
+        position: absolute;
+        
+    }
+
+    .page-header .header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .page-header .header-content strong{
+        color: white;
+        font: 700 3.2rem Archivo;
+        margin-left:0;
+        width: 30rem;
+        margin-left: -5rem;
+        margin-right: 20rem;
+        position: relative; 
+    }
+
+}
+
+@media(min-width:1440px){
+    .page-header{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .page-header .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 30rem;
+    }
+
+    .page-header .JJM img{
+        width: 10%;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    .page-header .header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .page-header .header-content strong{
+        color: white;
+        font: 700 4.2rem Archivo;
+        margin-left:0;
+        width: 50rem;
+        margin-left: -10rem;
+        margin-right: 15rem;
+        position: relative; 
+    }
+
+}
+
+@media(min-width:1600px){
+    .page-header{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem;
+    }
+
+    .page-header .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 30rem;
+    }
+
+    .page-header .JJM img{
+        width: 9%;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    .page-header .header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .page-header .header-content strong{
+        color: white;
+        font: 700 4.2rem Archivo;
+        margin-left:0;
+        width: 50rem;
+        margin-left: -10rem;
+        margin-right: 35rem;
+        position: relative; 
+    }
+
+}
+
+@media(min-width:1920px){
+    .page-header{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem;
+    }
+
+    .page-header .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 30rem;
+    }
+
+    .page-header .JJM img{
+        width: 8%;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    .page-header .header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .page-header .header-content strong{
+        color: white;
+        font: 700 4.2rem Archivo;
+        margin-left:0;
+        width: 50rem;
+        margin-left: -10rem;
+        margin-right: 65rem;
+        position: relative; 
+    }
+
+}

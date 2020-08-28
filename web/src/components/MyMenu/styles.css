@@ -1,0 +1,56 @@
+
+div.menuHeader{
+    background: #333232;
+    padding: 1rem;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+}
+
+div.menuHeader img{
+    width: 50px;
+    height: 50px;
+    background:  rgb(238, 229, 229);
+    border-radius: 50%;
+}
+
+div.menuHeader h1{
+    font-family: Poppins;
+}
+
+.menuItem{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    transition: 0.2s;
+}
+
+.menuItem:hover{
+    background: #5f5e5e;
+}
+
+.menuLogin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.menuLogin h1{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.menuLogin:hover{
+    background: #494848;
+}
+
+.menuDiviser{
+    border-bottom: 2px solid white;
+}
+
+.sidebar-gridcolumn{
+    margin-top: -20rem;
+}

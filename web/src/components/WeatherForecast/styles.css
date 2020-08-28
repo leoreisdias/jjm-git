@@ -1,0 +1,455 @@
+.weatherFieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem auto;
+    width: 100%;
+}
+
+.weatherFieldset legend{
+    background: var(--color-line-in-white);    
+    padding: 1rem;
+    margin-left: -0.2rem;
+}
+
+.weatherFieldset .today{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: linear-gradient(#ffd89b   ,#19547b);
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.weatherFieldset .today .cityname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.weatherFieldset .today .cityname strong{
+    font-size: 2.6rem;
+    font-family: Fenix;
+}
+
+.weatherFieldset .today .cityname p{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.weatherFieldset .today .infoDay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherFieldset .today .infoDay .subInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.weatherFieldset .today .infoDay .subInfo  p{
+    font-size: 1.4rem;
+    font-family: Fenix;
+    color: black;
+    
+}
+
+.weatherFieldset .today .infoDay .subInfo p strong{
+    font-size: 2.4rem;
+    font-family: Fenix;
+    color: black;
+    -webkit-text-stroke-width: 0.02rem; /* largura da borda */
+    -webkit-text-stroke-color: #000;
+}
+
+.weatherFieldset .today .infoDay .subInfo span{
+    color: black;
+}
+
+
+
+.weatherFieldset .today .infoDay .iconWeather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.weatherFieldset .today .infoDay .iconWeather img{
+    margin-right: -7rem;
+    width: 15rem;
+    height: 11rem;
+    margin-bottom: -4rem;
+}
+
+.weatherFieldset .today .infoDay .iconWeather strong{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font: 700 1.6rem Fenix;
+}
+
+.weatherFieldset .today .infoDay .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 4.2rem Courgette;
+}
+
+.weatherFieldset .today .infoDay .temp strong{
+    color: black;
+}
+
+.weatherFieldset .nextDays{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    width: 100%;
+}
+
+.weatherFieldset .nextDays .eachDay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 15px;
+    background: linear-gradient(#1e6391    ,#e2c088 );
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.weatherFieldset .nextDays .eachDay strong{
+    font: 700 1.8rem Fenix;
+    padding-top: 0.8rem;
+}
+
+.weatherFieldset .nextDays .eachDay p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherFieldset .nextDays .eachDay p strong{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0.4rem;
+}
+
+.weatherFieldset .nextDays .eachDay p span p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: black;
+    font-family: Poppins;
+    font-size: 1.8rem;
+}
+
+.weatherFieldset .nextDays .eachDay p span p span{
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+
+@media(min-width:360px){
+    .weatherFieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem auto;
+    width: 100%;
+}
+
+.weatherFieldset legend{
+    background: var(--color-line-in-white);    
+    padding: 1rem;
+    margin-left: -0.2rem;
+}
+
+.weatherFieldset .today{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: linear-gradient(#ffd89b   ,#19547b);
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.weatherFieldset .today .cityname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.weatherFieldset .today .cityname strong{
+    font-size: 2.8rem;
+    font-family: Fenix;
+}
+
+.weatherFieldset .today .cityname p{
+    font-size: 2rem;
+    color: black;
+}
+
+.weatherFieldset .today .infoDay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherFieldset .today .infoDay .subInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.weatherFieldset .today .infoDay .subInfo  p{
+    font-size: 2rem;
+    font-family: Fenix;
+    color: black;
+    
+}
+
+.weatherFieldset .today .infoDay .subInfo p strong{
+    font-size: 3rem;
+    font-family: Fenix;
+    color: black;
+    -webkit-text-stroke-width: 0.02rem; /* largura da borda */
+    -webkit-text-stroke-color: #000;
+}
+
+.weatherFieldset .today .infoDay .subInfo span{
+    color: black;
+}
+
+
+
+.weatherFieldset .today .infoDay .iconWeather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.weatherFieldset .today .infoDay .iconWeather img{
+    margin-right: -7rem;
+    width: 15rem;
+    height: 11rem;
+    margin-bottom: -4rem;
+}
+
+.weatherFieldset .today .infoDay .iconWeather strong{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font: 700 1.8rem Fenix;
+}
+
+.weatherFieldset .today .infoDay .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 5rem Courgette;
+    
+}
+
+.weatherFieldset .today .infoDay .temp strong{
+    color: black;
+}
+
+.weatherFieldset .nextDays{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    width: 100%;
+}
+
+.weatherFieldset .nextDays .eachDay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 15px;
+    background: linear-gradient(#1e6391    ,#e2c088 );
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.weatherFieldset .nextDays .eachDay strong{
+    font: 700 1.8rem Fenix;
+    padding-top: 0.8rem;
+}
+
+.weatherFieldset .nextDays .eachDay p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherFieldset .nextDays .eachDay p strong{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0.4rem;
+}
+
+.weatherFieldset .nextDays .eachDay p span p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: black;
+    font-family: Poppins;
+    font-size: 1.8rem;
+}
+
+.weatherFieldset .nextDays .eachDay p span p span{
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+}
+
+@media(min-width:800px){
+    .weatherFieldset{
+        width: 60%;
+        margin: 2rem auto;
+    }
+
+    .weatherFieldset .today{
+        padding: 1rem;
+    }
+
+    .weatherFieldset .today .infoDay .temp{
+        font: 400 6.2rem Courgette;
+    }
+
+    .weatherFieldset .nextDays{
+        grid-gap: 0.8rem;
+        grid-template-columns: repeat(4,1fr);
+
+}
+
+    .weatherFieldset .today .infoDay .iconWeather strong{
+        font-size: 2.6rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay p strong{
+        font-size: 2rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay strong{
+        font-size: 2.4rem;
+        align-items: center;
+        }
+
+
+        .weatherFieldset .nextDays .eachDay p span p{
+            font-size: 2.6rem;
+        }
+}
+
+
+
+
+@media(min-width:1600px){
+    .weatherFieldset{
+        width: 50%;
+        margin: 2rem auto;
+    }
+
+    .weatherFieldset .today{
+        padding: 1rem;
+    }
+
+    .weatherFieldset .today .infoDay .temp{
+        font: 400 7rem Courgette;
+    }
+
+    .weatherFieldset .nextDays{
+        grid-gap: 0.8rem;
+        grid-template-columns: repeat(4,1fr);
+
+}
+
+    .weatherFieldset .today .infoDay .iconWeather strong{
+        font-size: 2.6rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay p strong{
+        font-size: 2rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay strong{
+        font-size: 2.4rem;
+        align-items: center;
+        }
+
+
+        .weatherFieldset .nextDays .eachDay p span p{
+            font-size: 2.6rem;
+        }
+}
+
+
+
+
+@media(min-width:1920px){
+    .weatherFieldset{
+        width: 40%;
+        margin: 2rem auto;
+    }
+
+    .weatherFieldset .today{
+        padding: 1rem;
+    }
+
+    .weatherFieldset .today .infoDay .temp{
+        font: 400 8rem Courgette;
+    }
+
+    .weatherFieldset .nextDays{
+        grid-gap: 0.8rem;
+        grid-template-columns: repeat(4,1fr);
+
+}
+
+    .weatherFieldset .today .infoDay .iconWeather strong{
+        font-size: 2.6rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay p strong{
+        font-size: 2rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay strong{
+        font-size: 2.4rem;
+        align-items: center;
+        }
+
+
+        .weatherFieldset .nextDays .eachDay p span p{
+            font-size: 2.6rem;
+        }
+}

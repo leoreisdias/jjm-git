@@ -1,0 +1,150 @@
+#page-landing{
+    width: 700px;
+    height:800px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-text-title);
+    background: var(--color-primary-lighter)
+
+}
+
+.logo-container img{
+    height: 30rem;
+    width: 30rem;
+    animation-name: fade;
+    animation-duration: 1000ms;
+}
+
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.hero-image{
+    width: 100%;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.2rem;
+}
+
+.logo-container h2{
+    font-weight: 500;
+    font-size: 2.7rem;
+    line-height: 5.0rem;
+    margin-top: 0.8rem;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.buttons-container a{
+    width: 20rem;
+    height: 8rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Archivo;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: var(--color-button-text);
+
+    transition: background-color 0.2s;
+}
+
+.buttons-container a:first-child{
+    margin-right: 1.6rem;
+}
+
+.buttons-container a img{
+    width: 4rem;
+}
+
+.buttons-container a.study{
+    background: var(--color-text-title);
+}
+
+
+.buttons-container a.study:hover{
+    background: var(--color-button-pages);
+}
+
+.buttons-container  a img{
+    margin-right: 2.4rem;
+}
+
+.total-connections{
+    font-size: 1.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-connections img{
+    margin-left: 0.8rem;
+}
+
+@media(min-width:700px){
+    #page-landing{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #page-landing-content{
+        max-width: 1100px;
+
+        flex-direction: row;
+        
+    }
+
+    .logo-container{
+        align-self: center;
+        text-align: initial;
+        margin: 0;
+    }
+
+    .logo-container h2{
+        text-align: initial;
+        font-size: 4.0rem;
+    }
+
+    .logo-container img{
+        height: 40rem;
+        width: 40rem;
+        margin-bottom: 5rem;                                                                                                                   
+    }
+
+    .buttons-container{
+        justify-content: center;
+    }
+
+    .buttons-container a{
+        font-size: 2.0rem;
+    }
+
+    .total-connections{
+        grid-area: total;
+        justify-self: start;
+    }
+}

@@ -1,0 +1,241 @@
+#page-options{
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-options .openSidebar{
+    cursor: pointer;
+}
+
+#page-options .optionsMain{
+    display: flex;
+    flex-direction: row;
+    background: var(--color-input-background);
+}
+
+#page-options .optionsMain{
+    margin: 3.2rem auto;
+    width: 90%;
+    animation-name: fade;
+    animation-duration: 2000ms;
+}
+
+
+@keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+
+.sidebar-gridcolumn{
+    margin-top: 0rem;
+}
+
+
+#page-options .optionsMain .optionsGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-options .optionsMain .optionsGrid .optionNews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+    padding: 10rem;
+    border-radius: 10%;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    width: 80%;
+    height: 30rem;
+
+    background: linear-gradient(#4568dc        ,#b06ab3);
+
+    transition: width 0.5s;
+    cursor: pointer;
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#page-options .optionsMain .optionsGrid .optionNews:hover{
+    background: linear-gradient(#7b4397        ,#dc2430);
+    width: 32rem;
+}
+
+#page-options .optionsMain .optionsGrid .optionNews h1{
+    font:700 2.8rem Archivo;
+    color: white;
+    text-align: center;
+}
+
+#page-options .optionsMain .optionsGrid .optionPopNews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+    padding: 10rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    border-radius: 10%;
+    width: 90%;
+    height: 30rem;
+
+    transition: width 0.5s;
+    cursor: pointer;
+
+    background: linear-gradient(#43cea2      ,#185a9d);
+
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#page-options .optionsMain .optionsGrid .optionPopNews:hover{
+    background: linear-gradient(#02aab0       ,#00cdac);
+    width: 32rem;
+}
+
+#page-options .optionsMain .optionsGrid .optionPopNews h1{
+    font:700 2.8rem Archivo;
+    color: white;
+    text-align: center;
+
+}
+
+#page-options .optionsMain .optionsGrid .optionSport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+    padding: 10rem;
+
+    border-radius: 10%;
+
+    width: 90%;
+    height: 28rem;
+
+    transition: width 0.5s;
+    cursor: pointer;
+
+    background: linear-gradient(#56ab2f     ,#a8e063);
+
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#page-options .optionsMain .optionsGrid .optionSport:hover{
+    background: linear-gradient(#000428  ,#004e92);
+    width: 32rem;
+}
+
+#page-options .optionsMain .optionsGrid .optionSport h1{
+    font:700 2.8rem Archivo;
+    color: white;
+    text-align: center;
+}
+
+#page-options .optionsMain .optionsGrid .optionReport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+    padding: 10rem;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    border-radius: 10%;
+
+    width: 100%;
+    height: 30rem;
+
+    transition: width 0.5s;
+    cursor: pointer;
+
+    background: linear-gradient(#bdc3c7    ,#2c3e50);
+
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#page-options .optionsMain .optionsGrid .optionReport:hover{
+    background: linear-gradient(#2b5876 ,#4e4376);
+    width: 32rem;
+}
+
+#page-options .optionsMain .optionsGrid .optionReport h1{
+    font:700 2.8rem Archivo;
+    color: white;
+    text-align: center;
+}
+
+@media(min-width:700px){
+    #page-options{
+        max-width: 100%;
+    }
+
+    #page-options .JJM{
+        width: 25%;
+    }
+
+    #page-options .header-content strong{
+        margin-right: 30rem;
+    }
+
+
+    #page-options .optionsMain{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+
+    #page-options .optionsMain .optionsGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10rem;
+        margin: 2rem auto;
+    }
+
+    #page-options .optionsMain .optionsGrid .optionNews{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        width: 80%;
+    }
+
+    #page-options .optionsMain .optionsGrid .optionPopNews{
+        padding-top: 7rem;
+        padding-left: 11rem;
+        padding-right: 11rem;
+        width: 80%;
+
+    }
+
+    #page-options .optionsMain .optionsGrid .optionReport{
+        padding-top: 7rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        width: 80%;
+    }
+
+    #page-options .optionsMain .optionsGrid .optionSport{
+        width: 80%;
+    }
+} 

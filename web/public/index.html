@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="notranslate">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/jjm.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Fenix&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link async rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@${props.versions.sui}/dist/semantic.min.css" />
+  <title>JJM - Jornal Jota Maria</title>
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="article">
+  <meta property="article:author" content="Jota Maria">
+  <meta property="article:section" content="Seção do artigo">
+  <meta property="article:tag" content="Pop,Esporte, Noticia">
+  <meta property="article:published_time" content="date_time">
+  <meta property="og:site_name" content="Jornal Jota Maria">
+  <meta property="og:description" content="Acompanhe a notícia">
+  <meta property="og:title" content="Saiba mais clicando aqui!">
+  <meta property="og:image" content="https://i.imgur.com/Wi5Czwx.png">
+  <meta property="og:image:width" content="800">
+  <meta property="fb:app_id" content="718147639034944">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+</body>
+<script async src="//cdn.jsdelivr.net/npm/semantic-ui@${props.versions.sui}/dist/semantic.min.js"></script>
+
+<script src="https://assets.hgbrasil.com/weather/js/hg-weather-1.0.js" type="text/javascript"></script>
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId: '718147639034944',
+      xfbml: true,
+      version: 'v3.2'
+    });
+
+    // Get Embedded Video Player API Instance
+    var my_video_player;
+    FB.Event.subscribe('xfbml.ready', function (msg) {
+      if (msg.type === 'video') {
+        my_video_player = msg.instance;
+      }
+    });
+  };
+</script>
+<script async defer src="https://connect.facebook.net/pt_BR/sdk.js"></script>
+
+<script language="JavaScript">
+  window.onbeforeunload = ConfirmExit;
+  function ConfirmExit() {
+    window.localStorage.clear();
+  }
+</script>
+
+</html>

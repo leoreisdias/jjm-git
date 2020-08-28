@@ -1,0 +1,236 @@
+.coffee{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2b5876      ,#ffd89b );
+
+    border-radius: 15px;
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+legend{
+    background: var(--color-line-in-white);    
+    padding: 1rem;
+}
+
+.coffee .coffeeInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.coffee .coffeeInfo span{
+    font: 400 2rem 'Bebas Neue';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-text-stroke-width: 0.1rem; /* largura da borda */
+    -webkit-text-stroke-color: #000;
+    
+}
+
+.coffee .coffeeInfo span strong{
+    font-size: 3.6rem;
+    font-family: Archivo;
+    color: white;
+    
+
+}
+
+.coffee .coffeeInfo strong{
+    font: 700 2.4rem Poppins;
+    color: white;
+
+}
+
+.coffee .iconCoffee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee .iconCoffee strong{
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.coffee .attentionCoffeeMsg{
+    display: flex;
+    margin-top: 2rem;
+    align-self: center;
+    font: 400 1.4rem Archivo;
+    justify-content: center;
+    color: black;
+}
+
+@media(min-width:400px){
+    .coffee{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    
+        background: linear-gradient(#2b5876      ,#ffd89b );
+    
+        border-radius: 15px;
+    
+        -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+    
+    legend{
+        background: var(--color-line-in-white);    
+        padding: 1rem;
+    }
+    
+    .coffee .coffeeInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    .coffee .coffeeInfo span{
+        font: 400 2.2rem 'Bebas Neue';
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-text-stroke-width: 0.1rem; /* largura da borda */
+        -webkit-text-stroke-color: #000;
+        
+    }
+    
+    .coffee .coffeeInfo span strong{
+        font-size: 4rem;
+        font-family: Archivo;
+        color: white;
+        
+    
+    }
+    
+    .coffee .coffeeInfo strong{
+        font: 700 3rem Poppins;
+        color: white;
+    
+    }
+    
+    .coffee .iconCoffee{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .coffee .iconCoffee strong{
+        margin-left: 2rem;
+        font-size: 1.6rem;
+    }
+    
+    .coffee .attentionCoffeeMsg{
+        display: flex;
+        margin-top: 2rem;
+        align-self: center;
+        font: 400 1.4rem Archivo;
+        justify-content: center;
+        color: black;
+    }
+}
+
+@media(min-width:700px){
+    fieldset{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .coffee{
+        margin: 0 auto;
+        margin-left: 3.6rem;
+    }
+
+    .coffee .coffeeInfo span{
+        font-size: 3.4rem;
+        max-width: 300px;
+        line-height: 4rem;
+    }
+
+    .coffee .coffeeInfo strong{
+        font-size: 5.2rem;
+    }
+
+    .coffee .iconCoffee strong{
+        font-size: 2.4rem;
+    }
+    
+}
+
+
+@media(min-width:1366px){
+    fieldset{
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .coffee{
+        margin: 0 auto;
+        margin-left: 3.6rem;
+    }
+
+    .coffee .coffeeInfo span{
+        font-size: 3.4rem;
+        max-width: 300px;
+        line-height: 4rem;
+    }
+
+    .coffee .coffeeInfo strong{
+        font-size: 5.2rem;
+    }
+
+    .coffee .iconCoffee strong{
+        font-size: 2.4rem;
+    }
+    
+}
+
+
+
+@media(min-width:1600px){
+    fieldset{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .coffee{
+        margin: 0 auto;
+        margin-left: 3.6rem;
+    }
+
+    .coffee .coffeeInfo span{
+        font-size: 3.4rem;
+        max-width: 300px;
+        line-height: 4rem;
+    }
+
+    .coffee .coffeeInfo strong{
+        font-size: 5.2rem;
+    }
+
+    .coffee .iconCoffee strong{
+        font-size: 2.4rem;
+    }
+    
+}

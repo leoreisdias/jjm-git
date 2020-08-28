@@ -1,0 +1,362 @@
+.news-item{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    background: var(--color-box-base);
+    border: 1px solid var(--color-line-in-white);
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+    overflow: hidden;
+    animation-name: fade;
+    animation-duration: 2000ms;
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.news-item header{
+    padding: 3.2rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    margin-bottom: auto;
+
+}
+
+.news-item header img{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 15%;
+    object-fit: cover;
+    object-position: center;
+    border: 1px double grey;
+}
+
+.news-item header div{
+    margin-left: 2.4rem;
+    margin-top: 2rem;
+}
+
+.news-item header div span{
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 0.4rem;
+}
+
+.news-item header div span + span{
+   margin-left: 24rem;
+}
+
+.news-item > p{
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    text-align: justify;
+    margin-bottom: auto;
+
+}
+
+.news-item footer{
+    padding: 3.2rem 2rem;
+    background: var(--color-box-footer);
+    border-top: 1px solid var(--color-line-in-white);
+    margin-top: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-item footer p strong{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.news-item footer button{
+    width: 13rem;
+    height: 5.6rem;
+    padding: 1rem;
+    background: var(--color-secundary);
+    color: var(--color-primary-darker);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.3rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.2s;
+}
+
+.news-item footer button:hover{
+    background: var(--color-secundary-dark);
+}
+
+.news-item footer a{
+    text-decoration: none;
+}
+
+.news-item footer p{
+    font-size: 1.4rem;
+}
+
+
+
+.news-item header div strong{
+    font: 700 1.8rem Archivo;
+    max-width: 100%;
+    display: block;
+    color: var(--color-text-title);
+}
+
+@keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+
+@media(min-width: 700px){
+    .news-item{
+        background: var(--color-box-base);
+        border: 1px solid var(--color-line-in-white);
+        border-radius: 0.8rem;
+        margin-top: 2.4rem;
+        overflow: hidden;
+        animation-name: fade;
+        animation-duration: 2000ms;
+        -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+        box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+        height: 54rem;
+    }
+
+    .news-item header{
+        padding: 3.2rem 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-items: center;
+    }
+
+    .news-item header img{
+        width: 22rem;
+        height: 22rem;
+        border-radius: 15%;
+        object-fit: cover;
+        object-position: center;
+        border: 1px double grey;
+    }
+    
+    .news-item header div{
+        margin-left: 2.4rem;
+        margin-top: 2rem;
+    }
+
+    .news-item header div span{
+        font-size: 1.2rem;
+        display: block;
+        margin-top: 0.4rem;
+    }
+
+    .news-item header div span + span{
+        margin-left: 24rem;
+     }
+     
+     .news-item > p{
+        padding: 0 2rem;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        text-align: justify;
+        height: 4rem;
+    }
+
+    .news-item footer{
+        padding: 3.2rem 2rem;
+        background: var(--color-box-footer);
+        border-top: 1px solid var(--color-line-in-white);
+        margin-top: 3.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .news-item footer p strong{
+        color: var(--color-primary);
+        font-size: 1.8rem;
+        display: block;
+        margin-top: 1rem;
+    }
+    
+    .news-item footer button{
+        width: 20rem;
+        height: 5.6rem;
+        padding: 1rem;
+        background: var(--color-secundary);
+        color: var(--color-primary-darker);
+        border: 0;
+        border-radius: 0.8rem;
+        cursor: pointer;
+        font: 700 1.5rem Archivo;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: 0.2s;
+    }
+    
+    .news-item footer button:hover{
+        background: var(--color-secundary-dark);
+    }
+    
+    .news-item footer a{
+        text-decoration: none;
+    }
+    
+    .news-item footer p{
+        font-size: 1.4rem;
+    }
+    
+    .news-item header div strong{
+        font: 700 2rem Archivo;
+        max-width: 400px;
+        display: block;
+        color: var(--color-text-title);
+    }
+    @keyframes fade {
+        from {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+}
+
+@media(min-width: 1200px){
+    .news-item{
+        background: var(--color-box-base);
+        border: 1px solid var(--color-line-in-white);
+        border-radius: 0.8rem;
+        margin-top: 2.4rem;
+        overflow: hidden;
+        animation-name: fade;
+        animation-duration: 2000ms;
+        -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+        box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+        height: 54rem;
+    }
+
+    .news-item header{
+        padding: 3.2rem 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-items: center;
+    }
+
+    .news-item header img{
+        width: 22rem;
+        height: 22rem;
+        border-radius: 15%;
+        object-fit: cover;
+        object-position: center;
+        border: 1px double grey;
+    }
+    
+    .news-item header div{
+        margin-left: 2.4rem;
+        margin-top: 2rem;
+    }
+
+    .news-item header div span{
+        font-size: 1.2rem;
+        display: block;
+        margin-top: 0.4rem;
+    }
+
+    .news-item header div span + span{
+        margin-left: 24rem;
+     }
+     
+     .news-item > p{
+        padding: 0 2rem;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        text-align: justify;
+        height: 4rem;
+    }
+
+    .news-item footer{
+        padding: 3.2rem 2rem;
+        background: var(--color-box-footer);
+        border-top: 1px solid var(--color-line-in-white);
+        margin-top: 3.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .news-item footer p strong{
+        color: var(--color-primary);
+        font-size: 1.8rem;
+        display: block;
+        margin-top: 1rem;
+    }
+    
+    .news-item footer button{
+        width: 20rem;
+        height: 5.6rem;
+        padding: 1rem;
+        background: var(--color-secundary);
+        color: var(--color-primary-darker);
+        border: 0;
+        border-radius: 0.8rem;
+        cursor: pointer;
+        font: 700 1.5rem Archivo;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: 0.2s;
+    }
+    
+    .news-item footer button:hover{
+        background: var(--color-secundary-dark);
+    }
+    
+    .news-item footer a{
+        text-decoration: none;
+    }
+    
+    .news-item footer p{
+        font-size: 1.4rem;
+    }
+    
+    .news-item header div strong{
+        font: 700 2.4rem Archivo;
+        max-width: 550px;
+        display: block;
+        color: var(--color-text-title);
+    }
+    @keyframes fade {
+        from {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+}

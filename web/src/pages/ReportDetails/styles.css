@@ -1,0 +1,912 @@
+#page-report-details{
+    width: 100%;
+    height: 100%;
+}
+
+#page-report-details .openSidebar{
+    align-self: flex-start;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}   
+
+#page-report-details .reportdetailmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#page-report-details .reportdetailmain .reports-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+
+}
+
+#page-report-details .reportdetailmain .reports-detail header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 6rem;
+}
+
+
+
+#page-report-details .reportdetailmain  .reports-detail header img{
+   max-width: 100%;
+   object-fit: contain;
+   margin-bottom: 4rem;
+}
+
+#page-report-details .reportdetailmain  .reports-detail header .summary{
+    font: 400 2.2rem Poppins;
+}
+
+#page-report-details .reportdetailmain .reports-detail .description{
+    font: 400 1.6rem Poppins;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 3.2rem;
+    text-align: justify;
+}
+
+#page-report-details .reportdetailmain .reports-detail .description  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+
+}
+#page-report-details .reportdetailmain .reports-detail .description  li{
+    text-align: justify;
+    width: 100%;
+    list-style-type: none;
+}
+
+#page-report-details .reportdetailmain .reports-detail .description h2{
+    font: 700 2.2rem Poppins;
+    margin-top: 1rem;
+    margin-right: 18rem;
+    color: black;
+    width: 100%;
+}
+
+#page-report-details .reportdetailmain .reports-detail .description img{
+    max-width: 100%;
+    margin-top: -2rem;
+}
+
+#page-report-details .reportdetailmain .reports-detail .lutoImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+#page-report-details .reportdetailmain .reports-detail .lutoImages img{
+    max-width: 100%;
+    margin-bottom: 4rem;
+}
+
+#page-report-details .reportdetailmain .reports-detail .diviser{
+    border-top:1px solid  var(--color-text-complement);
+    width: 100%;
+    height: 1px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+
+#page-report-details .reportdetailmain .reports-detail .footerReport{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: var(--color-box-footer);
+    width: 100%;
+    padding: 1.8rem;
+}
+
+#page-report-details .reportdetailmain .reports-detail .footerReport p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font: 400 1.4rem Archivo;
+}
+
+#page-report-details .reportdetailmain .reports-detail .footerReport p span{
+    font-weight: bold;
+}
+
+#page-report-details .reportdetailmain .reports-detail .shareFacebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: blue;
+    padding: 1rem 1.8rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+#page-report-details .reportdetailmain .reports-detail .shareFacebook a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#page-report-details .reportdetailmain .reports-detail .whatsappShare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: green;
+    padding: 1rem 1.8rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+#page-report-details .reportdetailmain .reports-detail .whatsappShare a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+
+@media(min-width:800px){
+    #page-report-details{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    #page-report-details .JJM{
+        width: 20%;
+    }
+
+    #page-report-details .header-content strong{
+        margin-right: 10rem;
+        width: 60rem;
+    }
+    
+    #page-report-details .openSidebar{
+        align-self: center;
+        margin-left: 2rem;
+    }   
+    
+    #page-report-details .reportdetailmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 90%;
+    
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+    
+    
+    
+    #page-report-details .reportdetailmain  .reports-detail header img{
+       max-width: 80%;
+       object-fit: contain;
+    
+        margin-top: 2rem;
+        border-radius: 15px;
+       -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+    
+    #page-report-details .reportdetailmain  .reports-detail header .summary{
+        font: 400 2.2rem Poppins;
+        padding: 1rem 1rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description{
+        font: 400 1.8rem Poppins;
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 3.4rem;
+        max-width: 95%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description h2{
+        font: 700 2.8rem Poppins;
+        margin-top: 1rem;
+        margin-right: 0;
+        color: black;
+        width: 100%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description img{
+        max-width: 65rem;
+        margin: -2rem auto;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img{
+        width: 50rem;
+        margin-bottom: 4rem;
+    }
+
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img + img{
+        margin-left: 2rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .diviser{
+        border-top:1px solid  var(--color-text-complement);
+        width: 100%;
+        height: 1px;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: var(--color-box-footer);
+        width: 100%;
+        padding: 1.8rem;
+        margin-top: 5rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font: 400 1.6rem Archivo;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p span{
+        font-weight: bold;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: blue;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: green;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }   
+}
+
+/* MEDIA QUERY 1366 */
+/* MEDIA QUERY 1366 */
+/* MEDIA QUERY 1366 */
+/* MEDIA QUERY 1366 */
+/* MEDIA QUERY 1366 */
+
+
+@media(min-width:1366px){
+    #page-report-details{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    #page-report-details .JJM{
+        width: 20%;
+    }
+
+    #page-report-details .header-content strong{
+        margin-right: 30rem;
+        width: 70rem;
+    }
+    
+    #page-report-details .openSidebar{
+        align-self: center;
+        margin-left: 0rem;
+        margin-right: 2rem;
+    }   
+    
+    #page-report-details .reportdetailmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 80%;
+    
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+    
+    
+    
+    #page-report-details .reportdetailmain  .reports-detail header img{
+       max-width: 70%;
+       object-fit: contain;
+    
+        margin-top: 2rem;
+        border-radius: 15px;
+       -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+    
+    #page-report-details .reportdetailmain  .reports-detail header .summary{
+        font: 400 2.2rem Poppins;
+        padding: 1rem 1rem;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description{
+        font: 400 1.8rem Poppins;
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 3.8rem;
+        max-width: 90%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description h2{
+        font: 700 2.8rem Poppins;
+        margin-top: 1rem;
+        margin-right: 0;
+        color: black;
+        width: 100%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description img{
+        max-width: 65rem;
+        margin: -2rem auto;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img{
+        width: 50rem;
+        margin-bottom: 4rem;
+    }
+
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img + img{
+        margin-left: 2rem;
+    }
+    
+    
+    #page-report-details .reportdetailmain .reports-detail .diviser{
+        border-top:1px solid  var(--color-text-complement);
+        width: 100%;
+        height: 1px;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: var(--color-box-footer);
+        width: 100%;
+        padding: 1.8rem;
+        margin-top: 5rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font: 400 1.8rem Archivo;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p span{
+        font-weight: bold;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: blue;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: green;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }
+        
+}
+
+/* MEDIA QUERY 1600 */
+/* MEDIA QUERY 1600 */
+/* MEDIA QUERY 1600 */
+/* MEDIA QUERY 1600 */
+/* MEDIA QUERY 1600 */
+
+
+@media(min-width:1600px){
+    #page-report-details{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    #page-report-details .JJM{
+        width: 20%;
+    }
+
+    #page-report-details .header-content strong{
+        margin-right: 35rem;
+        width: 90rem;
+        font-size: 3rem;
+    }
+    
+    #page-report-details .openSidebar{
+        align-self: center;
+        margin-left: 0rem;
+        margin-right: 8rem;
+    }   
+    
+    #page-report-details .reportdetailmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 70%;
+    
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+    
+    
+    
+    #page-report-details .reportdetailmain  .reports-detail header img{
+       max-width: 65%;
+       object-fit: contain;
+    
+        margin-top: 4rem;
+        border-radius: 15px;
+       -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+    
+    #page-report-details .reportdetailmain  .reports-detail header .summary{
+        font: 400 2.4rem Poppins;
+        padding: 1rem 1rem;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description{
+        font: 400 1.8rem Poppins;
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 4rem;
+        max-width: 90%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description h2{
+        font: 700 2.8rem Poppins;
+        margin-top: 1rem;
+        margin-right: 0;
+        color: black;
+        width: 100%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description img{
+        max-width: 65rem;
+        margin: -2rem auto;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img{
+        width: 50rem;
+        margin-bottom: 4rem;
+    }
+
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img + img{
+        margin-left: 2rem;
+    }
+    
+    
+    #page-report-details .reportdetailmain .reports-detail .diviser{
+        border-top:1px solid  var(--color-text-complement);
+        width: 100%;
+        height: 1px;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+   
+    #page-report-details .reportdetailmain .reports-detail .footerReport{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: var(--color-box-footer);
+        width: 100%;
+        padding: 1.8rem;
+        margin-top: 5rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font: 400 1.8rem Archivo;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p span{
+        font-weight: bold;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: blue;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: green;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }
+}
+
+
+/* MEDIA QUERY 1920 */
+/* MEDIA QUERY 1920 */
+/* MEDIA QUERY 1920 */
+/* MEDIA QUERY 1920 */
+/* MEDIA QUERY 1920 */
+/* MEDIA QUERY 1920 */
+
+
+@media(min-width:1920px){
+    #page-report-details{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    #page-report-details .JJM{
+        width: 20%;
+    }
+
+    #page-report-details .header-content strong{
+        margin-right: 70rem;
+        width: 80rem;
+        font-size: 3rem;
+    }
+    
+    #page-report-details .openSidebar{
+        align-self: center;
+        margin-left: 0rem;
+        margin-right: 15rem;
+    }   
+    
+    #page-report-details .reportdetailmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 70%;
+    
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+    
+    
+    
+    #page-report-details .reportdetailmain  .reports-detail header img{
+       max-width: 65%;
+       object-fit: contain;
+    
+        margin-top: 4rem;
+        border-radius: 15px;
+       -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    }
+    
+    #page-report-details .reportdetailmain  .reports-detail header .summary{
+        font: 400 2.6rem Poppins;
+        padding: 1rem 1rem;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description{
+        font: 400 1.8rem Poppins;
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 4rem;
+        max-width: 80%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description h2{
+        font: 700 2.8rem Poppins;
+        margin-top: 1rem;
+        margin-right: 0;
+        color: black;
+        width: 100%;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .description img{
+        max-width: 80rem;
+        margin: -2rem auto;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img{
+        width: 50rem;
+        margin-bottom: 4rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .lutoImages img + img{
+        margin-left: 2rem;
+    }
+    
+
+    #page-report-details .reportdetailmain .reports-detail .diviser{
+        border-top:1px solid  var(--color-text-complement);
+        width: 100%;
+        height: 1px;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+    
+   
+    #page-report-details .reportdetailmain .reports-detail .footerReport{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: var(--color-box-footer);
+        width: 100%;
+        padding: 1.8rem;
+        margin-top: 5rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font: 400 1.8rem Archivo;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .footerReport p span{
+        font-weight: bold;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: blue;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .shareFacebook a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: green;
+        padding: 1rem 1.8rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+    
+    #page-report-details .reportdetailmain .reports-detail .whatsappShare a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+    }
+    
+    
+}
