@@ -16,4 +16,4 @@ Minhas maiores dificuldades no projeto foram/são a combinação de cores e em a
 <img src="https://media-exp1.licdn.com/dms/image/C4D22AQFePUAalRKqlQ/feedshare-shrink_1280-alternative/0?e=1601510400&v=beta&t=qWSExuXktFqwe8pg6kOyR4QxZf3Pi5gD2bvQFJC9vJM" width="750" alt="Weather Forecast and Coffee Price">
 
 
-### Site pode ser acessado em: <a href="www.jornaljotamaria.com.br" target="_blank">Jornal Jota Maria</a>
+### Site pode ser acessado em: www.jornaljotamaria.com.br
