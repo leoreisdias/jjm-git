@@ -15,7 +15,7 @@ Minhas maiores dificuldades no projeto foram/são a combinação de cores e em a
 <img src="https://github.com/leoreisdias/jjm-react-with-next_serveless/raw/master/public/jjm(2).png?raw=true" width="750" alt="Landing Page">
 <img src="https://github.com/leoreisdias/jjm-react-with-next_serveless/raw/master/public/jjm(3).png?raw=true" width="750" alt="Weather Forecast and Coffee Price">
 
-## Repo of the project without "Next": [JJM with Next](https://github.com/leoreisdias/jjm-react-with-next_serveless)
+## Repo of the project UPDATED: [JJM with Next](https://github.com/leoreisdias/jjm-react-with-next_serveless)
 
 ### Site pode ser acessado em: www.jornaljotamaria.com.br
 
