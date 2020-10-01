@@ -1,14 +1,15 @@
 # JJM - Jornal Jota Maria - First Prototype
 
-Decidi como desafio pessoal a cada NLW (Next Level Week) da Rocketseat não somente seguir o que está sendo passado nos videos, mas absorver a ideia visual e aplicar em um contexto diferente, com adições e modificações conforme necessário.
 
-Desse modo, ao invés de seguir a ideia do Proffy, adaptei para um site de notícias para uma página que administro.
+I decided as a personal challenge to each Rocketseat NLW (Next Level Week) not only to follow what is happening in the videos, but to absorb the visual idea and apply it in a different context, with additions and modifications as needed.
 
-Esse desafio pessoal não tem como foco terminar no período de uma semana como é na NLW, mas tomar impulso para projetos próprios.
+So, instead of following Proffy's idea, I adapted it for a news site for a page that I manage.
 
-Penso em futuramente adaptar em um aplicativo mobile para prática.
+This personal challenge does not focus on finishing in a week as it is at NLW, but to boost its own projects.
 
-Minhas maiores dificuldades no projeto foram/são a combinação de cores e em algumas responsividades.
+I think in the future to adapt in a mobile application for practice.
+
+My biggest difficulties in the project were / are the color combination and some responsiveness.
 
 ### Screenshots Updated
 <img src="https://github.com/leoreisdias/jjm-react-with-next_serveless/raw/master/public/jjm(1).png?raw=true" width="750" alt="Sidebar Image">
@@ -17,5 +18,5 @@ Minhas maiores dificuldades no projeto foram/são a combinação de cores e em a
 
 ## Repo of the project UPDATED: [JJM with Next](https://github.com/leoreisdias/jjm-react-with-next_serveless)
 
-### Site pode ser acessado em: www.jornaljotamaria.com.br
+### Website can be accessed at: www.jornaljotamaria.com.br
 
